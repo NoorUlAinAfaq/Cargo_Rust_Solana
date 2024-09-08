@@ -1,0 +1,1 @@
+C:\Users\InaequoSolutions-PC\OneDrive\Desktop\Rust_Solana\Cargo_Rust_Solana\ArrayAndSlices\target\debug\ArrayAndSlices.exe: C:\Users\InaequoSolutions-PC\OneDrive\Desktop\Rust_Solana\Cargo_Rust_Solana\ArrayAndSlices\src\main.rs
