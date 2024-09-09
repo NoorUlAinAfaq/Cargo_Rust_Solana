@@ -1,3 +1,12 @@
+fn main()
+{
+   let mut vec : Vec<i64> = vec![1,2,3,4,5];
+   vec.len();
+   vec.push(6);
+   println!("{:?}", vec);
+}
+
+
 // fn main() {
    // let arr = [1 , 2, 3, 4];
    // let slice = &arr[1..4];
@@ -36,34 +45,34 @@
 
 
 
-fn main() {
-    let tweet = Tweet {
-        username: String::from("horse_ebooks"),
-        content: String::from(
-            "of course, as you probably already know, people",
-        ),
-        reply: false,
-        retweet: false,
-    };
+// fn main() {
+//     let tweet = Tweet {
+//         username: String::from("horse_ebooks"),
+//         content: String::from(
+//             "of course, as you probably already know, people",
+//         ),
+//         reply: false,
+//         retweet: false,
+//     };
 
-    println!("1 new tweet: {}", tweet.summarize());
-}
+//     println!("1 new tweet: {}", tweet.summarize());
+// }
 
-pub trait Summary {
-   fn summarize(&self) -> String;
-}
+// pub trait Summary {
+//    fn summarize(&self) -> String;
+// }
 
 
-pub struct Tweet {
-   pub username: String,
-   pub content: String,
-   pub reply: bool,
-   pub retweet: bool,
-}
+// pub struct Tweet {
+//    pub username: String,
+//    pub content: String,
+//    pub reply: bool,
+//    pub retweet: bool,
+// }
 
-impl Summary for Tweet {
-   fn summarize(&self) -> String {
-       format!("{}: {}", self.username, self.content)
-   }
-}
+// impl Summary for Tweet {
+//    fn summarize(&self) -> String {
+//        format!("{}: {}", self.username, self.content)
+//    }
+// }
 
